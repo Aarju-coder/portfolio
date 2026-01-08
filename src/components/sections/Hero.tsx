@@ -74,7 +74,7 @@ export default function Hero() {
           </Button>
           <Button
             as="a"
-            href="/resume.pdf"
+            href="/Aarju_Kumar_resume.pdf"
             download
             variant="secondary"
             size="lg"

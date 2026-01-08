@@ -54,13 +54,26 @@ export default function Projects() {
               transition={{ duration: 0.3 }}
               className="glass glass-hover rounded-xl overflow-hidden shadow-xl group"
             >
-              <div className="relative h-48 bg-gradient-to-br from-primary-400 to-secondary-400 overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-mesh opacity-30" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <h3 className="text-2xl font-bold text-white text-center px-4">
+              <div className="relative h-48 overflow-hidden">
+                {/* Background image */}
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                />
+
+                {/* Dark overlay so text is always readable */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/35 to-black/10" />
+
+                {/* Title (never hidden) */}
+                <div className="absolute inset-x-0 bottom-0 p-4">
+                  <h3 className="text-lg md:text-xl font-bold text-white leading-snug">
                     {project.title}
                   </h3>
                 </div>
+
+                {/* Featured badge */}
                 {project.featured && (
                   <div className="absolute top-4 right-4">
                     <Badge variant="accent" className="flex items-center gap-1">
@@ -70,6 +83,7 @@ export default function Projects() {
                   </div>
                 )}
               </div>
+
 
               <div className="p-6">
                 <p className="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">

@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Claims & Label Linter (US + EU)",
       "description": "Backend-first compliance engine for dietary supplement labels and e-commerce listings. Scrapes official regulatory sources, stores versioned snapshots/diffs, materializes EU authorized claims into queryable tables, and exposes APIs for jobs + claim search.",
-      "image": "/projects/claims-label-linter.jpg",
+      "image": "/projects/claims-label-linter.png",
       "technologies": ["Python", "FastAPI", "PostgreSQL", "SQLAlchemy", "Alembic", "Docker"],
       "tags": ["Backend", "Data", "Compliance"],
       "highlights": [
@@ -24,7 +24,7 @@
       "id": 2,
       "title": "Lingua Sync — Multilingual Voice Pipeline",
       "description": "Modular, containerized pipeline that converts video URLs into multilingual narrated audio. Includes audio download, STT, optional translation, and TTS voice synthesis behind a simple REST API.",
-      "image": "/projects/lingua-sync.jpg",
+      "image": "/projects/lingua-sync.png",
       "technologies": ["Python", "Docker", "yt-dlp", "faster-whisper", "OpenVoice", "REST API"],
       "tags": ["Backend", "AI", "Media"],
       "highlights": [
@@ -44,7 +44,7 @@
       "id": 3,
       "title": "Decentralized Voting System (Ethereum DApp)",
       "description": "A secure, transparent voting platform built on Ethereum. Users can create elections, add candidates (with IPFS uploads), cast votes via MetaMask, and view real-time results powered by smart contracts.",
-      "image": "/projects/blockchain-voting.jpg",
+      "image": "/projects/blockchain-voting.png",
       "technologies": ["Solidity", "Ethereum", "React", "IPFS", "MetaMask"],
       "tags": ["Full Stack", "Blockchain"],
       "highlights": [
@@ -64,7 +64,7 @@
       "id": 4,
       "title": "Ludo & Checkers — Web Game Frontend",
       "description": "Frontend codebase for browser-based board games (Ludo + Checkers). Built with Angular/TypeScript UI flows and game screens designed for multiplayer gameplay.",
-      "image": "/projects/ludo-checkers-frontend.jpg",
+      "image": "/projects/ludo-checkers-frontend.png",
       "technologies": ["Angular", "TypeScript", "HTML", "CSS"],
       "tags": ["Frontend", "Games"],
       "highlights": [
@@ -84,7 +84,7 @@
       "id": 5,
       "title": "Colyseus Multiplayer Backend — Ludo",
       "description": "Real-time multiplayer backend for Ludo using Colyseus/WebSockets for room/session orchestration and server-authoritative game state synchronization.",
-      "image": "/projects/ludo-backend.jpg",
+      "image": "/projects/ludo-backend.png",
       "technologies": ["Node.js", "TypeScript", "Colyseus", "WebSockets"],
       "tags": ["Backend", "Realtime", "Games"],
       "highlights": [
@@ -104,7 +104,7 @@
       "id": 6,
       "title": "Colyseus Multiplayer Backend — Checkers",
       "description": "Real-time multiplayer backend for Checkers built with Colyseus and WebSockets for synchronized gameplay, room handling, and game state updates.",
-      "image": "/projects/checkers-backend.jpg",
+      "image": "/projects/checkers-backend.png",
       "technologies": ["Node.js", "TypeScript", "Colyseus", "WebSockets"],
       "tags": ["Backend", "Realtime", "Games"],
       "highlights": [
@@ -124,7 +124,7 @@
       "id": 7,
       "title": "Admin Panel — React + Redux + Firebase",
       "description": "Admin panel web app built using React, Redux, and Firebase. Good foundation for dashboards, content management, and operational tooling.",
-      "image": "/projects/react-redux-firebase.jpg",
+      "image": "/projects/react-redux-firebase.png",
       "technologies": ["React", "Redux", "Firebase"],
       "tags": ["Frontend", "Admin"],
       "highlights": [
@@ -144,7 +144,7 @@
       "id": 8,
       "title": "AWS CDK Pipelines Toolkit",
       "description": "TypeScript project scaffold that uses AWS CDK to manage AWS infrastructure and pipelines. Useful as an IaC + CI/CD baseline for cloud projects.",
-      "image": "/projects/aws-cdk-toolkit.jpg",
+      "image": "/projects/aws-cdk-toolkit.png",
       "technologies": ["TypeScript", "AWS CDK", "CI/CD"],
       "tags": ["Cloud", "DevOps", "IaC"],
       "highlights": [
@@ -164,7 +164,7 @@
       "id": 9,
       "title": "ADI Uploader Service (.NET Console App)",
       "description": "C#/.NET console application/service-style project for handling file-based workflows (uploader service structure). Strong example of Windows automation-oriented engineering.",
-      "image": "/projects/dotnet-uploader.jpg",
+      "image": "/projects/dotnet-uploader.png",
       "technologies": ["C#", ".NET", "Windows Services/Automation"],
       "tags": ["Backend", "Automation"],
       "highlights": [
@@ -179,6 +179,23 @@
       "readmeUrl": null,
       "lastUpdated": "2023-06-14",
       "featured": false
+    },
+    {
+      "id": 10,
+      "title": "Personal Portfolio Website",
+      "description": "A modern, responsive portfolio built with React + Vite + Tailwind and Framer Motion. Fully data-driven via JSON for quick updates (skills, experience, projects) with a filterable projects grid and resume download support.",
+      "image": "/projects/portfolio.png",
+      "technologies": ["React", "Vite", "Tailwind CSS", "Framer Motion", "TypeScript"],
+      "tags": ["Frontend"],
+      "highlights": [
+        "Data-driven content using JSON (profile, skills, experience, projects)",
+        "Filterable project grid (Frontend/Backend/Cloud/DevOps)",
+        "Responsive, accessible UI with subtle animations",
+        "Resume download served from /public/resume.pdf"
+      ],
+      "liveUrl": null,
+      "githubUrl": "https://github.com/Aarju-coder/<YOUR-PORTFOLIO-REPO>",
+      "featured": true
     }
   ]
 }

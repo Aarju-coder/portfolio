@@ -1,0 +1,176 @@
+{
+  "topSkills": [
+    "Java",
+    "Spring Boot",
+    "Angular",
+    "React",
+    "TypeScript",
+    "AWS",
+    "GCP",
+    "WebSockets",
+    "SQL",
+    "REST APIs"
+  ],
+  "categories": [
+    {
+      "name": "Languages",
+      "skills": [
+        {
+          "name": "Java",
+          "level": "Expert",
+          "description": "Enterprise application development with Spring Boot, REST APIs, and microservices"
+        },
+        {
+          "name": "TypeScript",
+          "level": "Advanced",
+          "description": "Type-safe development for frontend and backend applications"
+        },
+        {
+          "name": "Python",
+          "level": "Advanced",
+          "description": "Scripting, automation, and backend services"
+        },
+        {
+          "name": "C",
+          "level": "Intermediate",
+          "description": "Systems programming and embedded systems testing"
+        },
+        {
+          "name": "JavaScript",
+          "level": "Advanced",
+          "description": "Full-stack web development and Node.js applications"
+        },
+        {
+          "name": "C#/.NET",
+          "level": "Intermediate",
+          "description": "Windows applications and Azure services integration"
+        }
+      ]
+    },
+    {
+      "name": "Backend & Systems",
+      "skills": [
+        {
+          "name": "Spring Boot",
+          "level": "Expert",
+          "description": "Building enterprise-grade REST APIs and microservices architectures"
+        },
+        {
+          "name": "REST APIs",
+          "level": "Expert",
+          "description": "API design, implementation, debugging, and optimization"
+        },
+        {
+          "name": "WebSockets",
+          "level": "Advanced",
+          "description": "Real-time bidirectional communication for multiplayer systems"
+        },
+        {
+          "name": "Colyseus",
+          "level": "Advanced",
+          "description": "Multiplayer game server framework for real-time state synchronization"
+        },
+        {
+          "name": "Node.js",
+          "level": "Advanced",
+          "description": "Backend services, real-time applications, and API development"
+        },
+        {
+          "name": "SQL",
+          "level": "Advanced",
+          "description": "Database design, queries, optimization, and data modeling"
+        }
+      ]
+    },
+    {
+      "name": "Frontend Development",
+      "skills": [
+        {
+          "name": "Angular",
+          "level": "Advanced",
+          "description": "Building responsive SPAs for multiplayer game UIs and admin portals"
+        },
+        {
+          "name": "React",
+          "level": "Advanced",
+          "description": "Modern web applications with hooks, state management, and responsive design"
+        },
+        {
+          "name": "HTML5 & CSS3",
+          "level": "Advanced",
+          "description": "Semantic markup, responsive design, and modern styling"
+        },
+        {
+          "name": "Responsive Design",
+          "level": "Advanced",
+          "description": "Cross-device compatibility and mobile-first development"
+        }
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "skills": [
+        {
+          "name": "AWS",
+          "level": "Advanced",
+          "description": "Lambda, DynamoDB, CloudWatch, S3, and serverless architectures"
+        },
+        {
+          "name": "AWS CDK",
+          "level": "Advanced",
+          "description": "Infrastructure as Code using TypeScript for AWS resources"
+        },
+        {
+          "name": "GCP",
+          "level": "Advanced",
+          "description": "Cloud services, notifications, and application deployment"
+        },
+        {
+          "name": "Terraform",
+          "level": "Intermediate",
+          "description": "Multi-cloud infrastructure provisioning and management"
+        },
+        {
+          "name": "Azure",
+          "level": "Intermediate",
+          "description": "Data Lake, cloud storage, and service integration"
+        },
+        {
+          "name": "CI/CD",
+          "level": "Advanced",
+          "description": "Automated testing, deployment pipelines, and release management"
+        }
+      ]
+    },
+    {
+      "name": "Testing & Tools",
+      "skills": [
+        {
+          "name": "Ceedling",
+          "level": "Intermediate",
+          "description": "Unit testing framework for C-based embedded systems"
+        },
+        {
+          "name": "Git",
+          "level": "Expert",
+          "description": "Version control, branching strategies, and team collaboration"
+        },
+        {
+          "name": "Unit Testing",
+          "level": "Advanced",
+          "description": "Test-driven development and code coverage"
+        },
+        {
+          "name": "Integration Testing",
+          "level": "Advanced",
+          "description": "End-to-end testing and API validation"
+        },
+        {
+          "name": "Agile/Scrum",
+          "level": "Advanced",
+          "description": "Sprint planning, daily standups, and iterative development"
+        }
+      ]
+    }
+  ]
+}

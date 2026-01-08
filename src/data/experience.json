@@ -1,0 +1,56 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "company": "Freelance Software Engineering Projects",
+      "position": "Software Engineer",
+      "location": "Remote",
+      "startDate": "May 2023",
+      "endDate": "Dec 2023",
+      "current": false,
+      "description": "Delivered multiple client projects across Java/Spring Boot modernization, embedded systems testing, cloud infrastructure, and automation",
+      "responsibilities": [
+        "Migrated legacy Java services toward newer Java/Spring Boot baselines by upgrading dependencies and fixing compatibility/build issues",
+        "Debugged REST APIs (auth failures, serialization, null-handling, request/response mismatches, performance issues) using logs and targeted refactors",
+        "Improved maintainability by modularizing code and adding practical unit/integration coverage where possible",
+        "Enhanced reliability of car Bluetooth systems by creating/executing tests for Message Access Profile (MCE)",
+        "Improved audio/call management efficiency for Hands-Free Profile Clients (HFP-C)",
+        "Diagnosed and resolved internal tool issues; collaborated cross-functionally; automated regression scripts",
+        "Built a testing tool using GCP and AWS serverless services with IaC via AWS CDK (TypeScript)",
+        "Implemented CloudWatch alarms/metrics; refined data models and code quality; optimized for availability; performed code reviews",
+        "Built a C#/.NET console app to automate ingestion of ADI files into Azure Data Lake (claimed +40% speed)",
+        "Configured Windows auto-start; streamlined workflows; designed modular components; tested for robustness"
+      ],
+      "technologies": ["Java", "Spring Boot", "C", "Ceedling", "GCP", "AWS Lambda", "AWS CDK", "TypeScript", "DynamoDB", "CloudWatch", "C#", ".NET", "Azure Data Lake"],
+      "achievements": [
+        "Successfully completed 4 distinct client projects spanning backend, cloud, and embedded systems",
+        "Improved Azure Data Lake ingestion speed by 40% through automation",
+        "Enhanced Bluetooth system reliability through comprehensive testing frameworks"
+      ]
+    },
+    {
+      "id": 2,
+      "company": "Logic Simplified Pvt Ltd",
+      "position": "Game Developer",
+      "location": "Remote",
+      "startDate": "Sep 2021",
+      "endDate": "Apr 2023",
+      "current": false,
+      "description": "Developed multiplayer browser-based games and admin portals using modern web technologies and real-time networking",
+      "responsibilities": [
+        "Built two browser-based multiplayer game UIs in Angular, delivering responsive gameplay screens and player flows",
+        "Developed an admin web portal in React to manage game/application content (characters, configurations, and updates) and view analytics dashboards for usage/engagement insights",
+        "Implemented real-time multiplayer networking using WebSockets and Colyseus, enabling low-latency state sync, room/session management, and multiplayer game loops",
+        "Improved performance and code quality through systematic debugging/refactoring and collaborative development in Agile sprints; supported CI/CD-driven releases",
+        "Designed and implemented a notification scheduling + delivery pipeline for Windows, Android, and iOS clients",
+        "Wrote scheduler and notification logic to trigger requests to GCP, which then delivered push notifications to client applications reliably and at scale"
+      ],
+      "technologies": ["Angular", "React", "Node.js", "WebSockets", "Colyseus", "TypeScript", "GCP", "Java", "CI/CD"],
+      "achievements": [
+        "Delivered 2 complete multiplayer games with real-time networking from concept to production",
+        "Built scalable notification pipeline serving Windows, Android, and iOS platforms",
+        "Improved player engagement through analytics-driven admin portal features"
+      ]
+    }
+  ]
+}

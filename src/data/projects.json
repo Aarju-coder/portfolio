@@ -1,0 +1,184 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Claims & Label Linter (US + EU)",
+      "description": "Backend-first compliance engine for dietary supplement labels and e-commerce listings. Scrapes official regulatory sources, stores versioned snapshots/diffs, materializes EU authorized claims into queryable tables, and exposes APIs for jobs + claim search.",
+      "image": "/projects/claims-label-linter.jpg",
+      "technologies": ["Python", "FastAPI", "PostgreSQL", "SQLAlchemy", "Alembic", "Docker"],
+      "tags": ["Backend", "Data", "Compliance"],
+      "highlights": [
+        "Scrapes official sources and tracks versioned snapshots + diffs",
+        "Materializes EU authorized claims into queryable tables",
+        "APIs to run jobs and search claims quickly",
+        "Designed for production-style data + backend workflows"
+      ],
+      "liveUrl": null,
+      "githubUrl": "https://github.com/Aarju-coder/claims-label-linter",
+      "repoUrls": ["https://github.com/Aarju-coder/claims-label-linter"],
+      "readmeUrl": "https://github.com/Aarju-coder/claims-label-linter/blob/main/README.md",
+      "lastUpdated": "2026-01-07",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Lingua Sync — Multilingual Voice Pipeline",
+      "description": "Modular, containerized pipeline that converts video URLs into multilingual narrated audio. Includes audio download, STT, optional translation, and TTS voice synthesis behind a simple REST API.",
+      "image": "/projects/lingua-sync.jpg",
+      "technologies": ["Python", "Docker", "yt-dlp", "faster-whisper", "OpenVoice", "REST API"],
+      "tags": ["Backend", "AI", "Media"],
+      "highlights": [
+        "End-to-end pipeline: download → STT → translate → TTS",
+        "GPU-accelerated transcription using faster-whisper",
+        "Voice cloning + style control via OpenVoice",
+        "Single endpoint to run the full pipeline"
+      ],
+      "liveUrl": null,
+      "githubUrl": "https://github.com/Aarju-coder/lingua-sync",
+      "repoUrls": ["https://github.com/Aarju-coder/lingua-sync"],
+      "readmeUrl": "https://github.com/Aarju-coder/lingua-sync/blob/master/readme.md",
+      "lastUpdated": "2025-07-27",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Decentralized Voting System (Ethereum DApp)",
+      "description": "A secure, transparent voting platform built on Ethereum. Users can create elections, add candidates (with IPFS uploads), cast votes via MetaMask, and view real-time results powered by smart contracts.",
+      "image": "/projects/blockchain-voting.jpg",
+      "technologies": ["Solidity", "Ethereum", "React", "IPFS", "MetaMask"],
+      "tags": ["Full Stack", "Blockchain"],
+      "highlights": [
+        "Smart-contract driven elections and vote casting",
+        "Candidate image uploads via IPFS (Pinata)",
+        "Role-based flows and real-time results",
+        "Full DApp structure with frontend + contract folders"
+      ],
+      "liveUrl": null,
+      "githubUrl": "https://github.com/Aarju-coder/BlockchainBasedVotingSystem",
+      "repoUrls": ["https://github.com/Aarju-coder/BlockchainBasedVotingSystem"],
+      "readmeUrl": "https://github.com/Aarju-coder/BlockchainBasedVotingSystem/blob/master/README.md",
+      "lastUpdated": "2025-04-14",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Ludo & Checkers — Web Game Frontend",
+      "description": "Frontend codebase for browser-based board games (Ludo + Checkers). Built with Angular/TypeScript UI flows and game screens designed for multiplayer gameplay.",
+      "image": "/projects/ludo-checkers-frontend.jpg",
+      "technologies": ["Angular", "TypeScript", "HTML", "CSS"],
+      "tags": ["Frontend", "Games"],
+      "highlights": [
+        "Game UI screens and player flows for web gameplay",
+        "TypeScript-based frontend architecture",
+        "Designed to pair with Colyseus multiplayer backends",
+        "Good base to deploy as a static site"
+      ],
+      "liveUrl": null,
+      "githubUrl": "https://github.com/Aarju-coder/Ludo-Checkers-Frontend",
+      "repoUrls": ["https://github.com/Aarju-coder/Ludo-Checkers-Frontend"],
+      "readmeUrl": null,
+      "lastUpdated": "2023-06-05",
+      "featured": true
+    },
+    {
+      "id": 5,
+      "title": "Colyseus Multiplayer Backend — Ludo",
+      "description": "Real-time multiplayer backend for Ludo using Colyseus/WebSockets for room/session orchestration and server-authoritative game state synchronization.",
+      "image": "/projects/ludo-backend.jpg",
+      "technologies": ["Node.js", "TypeScript", "Colyseus", "WebSockets"],
+      "tags": ["Backend", "Realtime", "Games"],
+      "highlights": [
+        "Room/session based multiplayer architecture",
+        "Server-authoritative state sync for fair gameplay",
+        "Low-latency WebSocket transport via Colyseus",
+        "Extensible structure for tournaments/AI modes"
+      ],
+      "liveUrl": null,
+      "githubUrl": "https://github.com/Aarju-coder/Ludo-Multiplayer-AI-Tournaments-Colyseus-Backend",
+      "repoUrls": ["https://github.com/Aarju-coder/Ludo-Multiplayer-AI-Tournaments-Colyseus-Backend"],
+      "readmeUrl": null,
+      "lastUpdated": "2023-06-05",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "Colyseus Multiplayer Backend — Checkers",
+      "description": "Real-time multiplayer backend for Checkers built with Colyseus and WebSockets for synchronized gameplay, room handling, and game state updates.",
+      "image": "/projects/checkers-backend.jpg",
+      "technologies": ["Node.js", "TypeScript", "Colyseus", "WebSockets"],
+      "tags": ["Backend", "Realtime", "Games"],
+      "highlights": [
+        "Multiplayer rooms and matchmaking-ready structure",
+        "Synchronized server-side game loop patterns",
+        "WebSocket-based gameplay updates",
+        "Clean separation for game state and transport"
+      ],
+      "liveUrl": null,
+      "githubUrl": "https://github.com/Aarju-coder/Checkers-Multiplayer-AI-Tournaments-Colyseus-Backend",
+      "repoUrls": ["https://github.com/Aarju-coder/Checkers-Multiplayer-AI-Tournaments-Colyseus-Backend"],
+      "readmeUrl": null,
+      "lastUpdated": "2023-06-05",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "title": "Admin Panel — React + Redux + Firebase",
+      "description": "Admin panel web app built using React, Redux, and Firebase. Good foundation for dashboards, content management, and operational tooling.",
+      "image": "/projects/react-redux-firebase.jpg",
+      "technologies": ["React", "Redux", "Firebase"],
+      "tags": ["Frontend", "Admin"],
+      "highlights": [
+        "Admin panel foundation with modern React patterns",
+        "Redux-based state management",
+        "Firebase integration-ready for auth/data",
+        "Easy to extend with analytics dashboards"
+      ],
+      "liveUrl": null,
+      "githubUrl": "https://github.com/Aarju-coder/React-Redux-Firebase",
+      "repoUrls": ["https://github.com/Aarju-coder/React-Redux-Firebase"],
+      "readmeUrl": "https://github.com/Aarju-coder/React-Redux-Firebase/blob/master/README.md",
+      "lastUpdated": "2023-06-05",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "title": "AWS CDK Pipelines Toolkit",
+      "description": "TypeScript project scaffold that uses AWS CDK to manage AWS infrastructure and pipelines. Useful as an IaC + CI/CD baseline for cloud projects.",
+      "image": "/projects/aws-cdk-toolkit.jpg",
+      "technologies": ["TypeScript", "AWS CDK", "CI/CD"],
+      "tags": ["Cloud", "DevOps", "IaC"],
+      "highlights": [
+        "AWS CDK setup for infrastructure + pipelines",
+        "TypeScript-based IaC workflow",
+        "Good starter for production-grade deployment patterns",
+        "Repo includes practical references/links"
+      ],
+      "liveUrl": null,
+      "githubUrl": "https://github.com/Aarju-coder/AWSAccessbilityMonitoringService",
+      "repoUrls": ["https://github.com/Aarju-coder/AWSAccessbilityMonitoringService"],
+      "readmeUrl": "https://github.com/Aarju-coder/AWSAccessbilityMonitoringService/blob/main/README.md",
+      "lastUpdated": "2023-06-14",
+      "featured": false
+    },
+    {
+      "id": 9,
+      "title": "ADI Uploader Service (.NET Console App)",
+      "description": "C#/.NET console application/service-style project for handling file-based workflows (uploader service structure). Strong example of Windows automation-oriented engineering.",
+      "image": "/projects/dotnet-uploader.jpg",
+      "technologies": ["C#", ".NET", "Windows Services/Automation"],
+      "tags": ["Backend", "Automation"],
+      "highlights": [
+        "Service-style console app structure",
+        "Organized project layout with solution + configs",
+        "Good base for ingestion/upload automations",
+        "Demonstrates practical C# tooling patterns"
+      ],
+      "liveUrl": null,
+      "githubUrl": "https://github.com/Aarju-coder/ConsoleApplication-C-Sharp-DOTNET",
+      "repoUrls": ["https://github.com/Aarju-coder/ConsoleApplication-C-Sharp-DOTNET"],
+      "readmeUrl": null,
+      "lastUpdated": "2023-06-14",
+      "featured": false
+    }
+  ]
+}

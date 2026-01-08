@@ -1,0 +1,71 @@
+{
+  "name": "Aarju Kumar",
+  "title": "Software Engineer | Full Stack",
+  "tagline": "Building scalable applications with Java/Spring Boot, modern web frameworks, real-time multiplayer systems, and cloud infrastructure",
+  "bio": "I'm a full-stack software engineer with expertise in Java/Spring Boot backend development, modern frontend frameworks (Angular/React), and cloud technologies. I specialize in building real-time multiplayer systems using WebSockets/Colyseus, cloud infrastructure with AWS/GCP, and delivering robust solutions with a DevOps mindset. My experience spans from modernizing legacy systems to building scalable cloud applications and interactive multiplayer games.",
+  "location": "Missouri, USA",
+  "availability": "Open to opportunities",
+  "email": "kaarju99@gmail.com",
+  "phone": "(573) 587-1639",
+  "quickFacts": [
+    {
+      "label": "Experience",
+      "value": "3+ Years"
+    },
+    {
+      "label": "Projects Delivered",
+      "value": "15+"
+    },
+    {
+      "label": "Tech Stack",
+      "value": "Full Stack"
+    },
+    {
+      "label": "Cloud Platforms",
+      "value": "AWS & GCP"
+    }
+  ],
+  "social": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Aarju-coder",
+      "icon": "Github"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/aarju-kumar-98194a130",
+      "icon": "Linkedin"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:kaarju99@gmail.com",
+      "icon": "Mail"
+    }
+  ],
+  "education": [
+    {
+      "degree": "MSc., Computer Science",
+      "institution": "Southeast Missouri State University",
+      "location": "Missouri, USA",
+      "startDate": "2024",
+      "endDate": "2025",
+      "gpa": "3.7/4.0",
+      "achievements": [
+        "Specialization: Applied Computer Science",
+        "Focus on advanced software engineering and systems design"
+      ]
+    },
+    {
+      "degree": "B.Tech., Computer Science",
+      "institution": "Uttaranchal University",
+      "location": "Dehradun, India",
+      "startDate": "2017",
+      "endDate": "2021",
+      "gpa": "4.0/4.0",
+      "achievements": [
+        "Perfect GPA throughout undergraduate studies",
+        "Strong foundation in computer science fundamentals"
+      ]
+    }
+  ]
+}
